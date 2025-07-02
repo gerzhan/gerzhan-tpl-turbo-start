@@ -1,4 +1,6 @@
-# shadcn/ui monorepo template
+# Gerzhan template monorepo
+
+[github.com/gerzhan/gerzhan-tpl-turbo-start](https://github.com/gerzhan/gerzhan-tpl-turbo-start)
 
 This template is for creating a monorepo with shadcn/ui.
 
@@ -27,5 +29,5 @@ Your `tailwind.config.ts` and `globals.css` are already set up to use the compon
 To use the components in your app, import them from the `ui` package.
 
 ```tsx
-import { Button } from "@workspace/ui/components/button"
+import {Button} from '@gerzhan/ui/components/button';
 ```
