@@ -1,0 +1,8 @@
+@import '@gerzhan/ui/globals.css';
+/* NOTE: включение стилей компонент приложения */
+@source './../components/**/*.{ts,tsx}';
+
+/* NOTE: стилизация данного приложения */
+:root {
+  --background: oklch(1 0 0);
+}

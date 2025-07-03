@@ -1,6 +1,6 @@
 import {Geist, Geist_Mono} from 'next/font/google';
-
-import '@gerzhan/ui/globals.css';
+// NOTE: ссылка на стили текущего приложения
+import './globals.css';
 import {Providers} from '@/components/providers';
 
 const fontSans = Geist({
